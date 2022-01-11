@@ -175,6 +175,7 @@ $(document).ready(function() {
             pos_questions.push(limitQuestions);
             pos_answers.push(limitAnswers);
         }
+        if (pos_questions.length <= 0) return;
 
         $('#show').show();
         var rand_problem_test = Math.floor(Math.random() * pos_questions.length);
