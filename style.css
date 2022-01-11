@@ -9,10 +9,13 @@ ul {
     column-count: 2;
     column-gap: 20px;
     list-style: none;
+    text-align: left;
+    display: inline-block;
 }
 
 fieldset {
     border-radius: 10px;
+    text-align: center;
 }
 
 #generate {
@@ -21,4 +24,26 @@ fieldset {
 
 #problem {
     margin: 2rem 0;
+}
+
+#answer {
+    text-align: center;
+}
+
+legend {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+}
+
+.question-body {
+    text-align: center;
 }

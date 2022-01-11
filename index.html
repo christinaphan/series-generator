@@ -9,21 +9,51 @@
 <body>
     <h1>Series Problem Generator</h1>
     <!-- <form onsubmit="return false"> -->
-        <fieldset>
+        <fieldset id="options">
             <legend>Options</legend>
-        <ul>
-            <li>
-                <input type="checkbox" id="nthterm" checked>
-                <label for="nthterm" title="nthterm">Nth Term Test For Divergence</label>
-            </li>
-            <li>
-                <input type="checkbox" id="ptest" checked>
-                <label for="ptest" title="ptest">P-Test</label>
-            </li>
-        </ul>
+            <ul>
+                <li>
+                    <input type="checkbox" id="nthterm" checked>
+                    <label for="nthterm">Nth Term Test For Divergence</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="ptest" checked>
+                    <label for="ptest">P-Test</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="geotest" checked>
+                    <label for="geotest">Geometric Test</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="comparetest" checked>
+                    <label for="comparetest">Comparison Test</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="altseries" checked>
+                    <label for="altseries">Alternating Series Test</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="ratio" checked>
+                    <label for="ratio">Ratio Test</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="roottest" checked>
+                    <label for="roottest">Root Test</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="integral" checked>
+                    <label for="integral">Integral Test</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="limitcompare" checked>
+                    <label for="limitcompare">Limit Comparison Test</label>
+                </li>
+            </ul>
         </fieldset>
-        <button id="generate">Generate Problem</button>
-        <button id="show">Show/Hide Answer</button>
+        <div id="buttons">
+            <button id="generate">Generate Problem</button>
+            <button id="show">Show/Hide Answer</button>
+        </div>
     </form>
     <div id="question">
         <div class="question-body">
