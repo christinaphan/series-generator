@@ -126,6 +126,16 @@ const limitAnswers = [
 
 $(document).ready(function() {
     $('#show').hide();
+    $('#selectall').on('click', function() {
+        $(':checkbox').each(function() {
+            this.checked = true;
+        });
+    });
+    $('#deselectall').on('click', function() {
+        $(':checkbox').each(function() {
+            this.checked = false;
+        });
+    });
     $('#generate').on('click', function() {
         var pos_questions = [];
         var pos_answers = [];
