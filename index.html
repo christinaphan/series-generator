@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Series Problem Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Series Problem Generator</h1>
+    <!-- <form onsubmit="return false"> -->
+        <fieldset>
+            <legend>Options</legend>
+        <ul>
+            <li>
+                <input type="checkbox" id="nthterm" checked>
+                <label for="nthterm" title="nthterm">Nth Term Test For Divergence</label>
+            </li>
+            <li>
+                <input type="checkbox" id="ptest" checked>
+                <label for="ptest" title="ptest">P-Test</label>
+            </li>
+        </ul>
+        </fieldset>
+        <button id="generate">Generate Problem</button>
+        <button id="show">Show/Hide Answer</button>
+    </form>
+    <div id="question">
+        <div class="question-body">
+           DELETE ME question
+        </div>
+    </div>
+    <div id="answer">
+        <div class="answer-body">
+            DELETE ME answer
+        </div>
+    </div>
+
+    <script src=https://code.jquery.com/jquery-3.6.0.js></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="generator.js"></script>
+</body>
+</html>
