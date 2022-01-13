@@ -1,6 +1,10 @@
-body {
+html, body {
+    margin: 0;
+    padding: 0;
     font-family: arial;
     text-align: center;
+    height: 100%;
+    width: 100%;
 }
 
 ul {
@@ -15,6 +19,9 @@ ul {
 fieldset {
     border-radius: 10px;
     text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
 #generate {
@@ -33,6 +40,7 @@ legend {
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.25rem;
 }
 
 h1 {
@@ -61,3 +69,32 @@ form {
     display: inline-block;
     text-align: left;
 }
+
+.button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    font-size: 0.75rem;
+    padding: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    font-size: 1.5rem;
+    padding: 15px 15px;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    font-size: 0.85rem;
+    padding: 5px;
+}
+
