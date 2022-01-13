@@ -97,17 +97,27 @@ const rootAnswers = [
 ];
 
 const integralQuestions = [
-    "integral #1 $$a+b=c$$",
-    "integral #2 $$a+b=c$$",
-    "integral #3 $$a+b=c$$",
-    "integral #4 $$a+b=c$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{9}{{{n^2} + 5n + 4}}}$$",
+    "$$\\sum\\limits_{n=2}^\\infty {\\frac{\\sqrt{n+2}-\\sqrt{n+1}}{\\sqrt{n+1}\\sqrt{n+2}}}$$",
+    "$$\\sum\\limits_{n = 0}^\\infty  {\\frac{8}{{{{\\left( {n + 10} \\right)}^2}}}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty {\\frac{1}{{\\ln 2}^{n}}}$$",
+    "$$\\sum\\limits_{n=3}^\\infty {\\frac{\\frac{1}{n}}{(\\ln n)\\sqrt{{\\ln n}^2 -1}}}$$",
+    "$$\\sum\\limits_{n = 0}^\\infty  {n\\,{{\\bf{e}}^{ - n}}}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{n}{n^2+1}}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {n\\sin\\big(\\frac{1}{n}\\big)}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\big(1+\\frac{1}{n}\\big)^n}$$",
 ];
 
 const integralAnswers = [
-    "integral #1 converges",
-    "integral #2 diverges",
-    "integral #3 converges",
-    "integral #4 diverges",
+    "Converges",
+    "Converges",
+    "Converges",
+    "Diverges",
+    "Converges",
+    "Converges",
+    "Diverges",
+    "Diverges",
+    "Diverges",
 ];
 
 const limitQuestions = [
