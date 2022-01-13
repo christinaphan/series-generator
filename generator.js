@@ -1,43 +1,45 @@
 const nthTermQuestions = [
-    "nthTerm #1 $$a+b=c$$",
-    "nthTerm #2 $$a+b=c$$",
-    "nthTerm #3 $$a+b=c$$",
-    "nthTerm #4 $$a+b=c$$",
+    "$$\\sum\\limits_{n=4}^\\infty {\\frac{n}{{\\ln \\left( {n + 2} \\right)}}}$$",
+    "$$\\sum\\limits_{n=2}^\\infty {\\frac{3{\\bf{e}}^{n}+{\\bf{e}}^{-n}}{{\\bf{e}}^{n}+3{\\bf{e}}^{-n}}}$$",
+    "$$\\sum\\limits_{n=4}^\\infty {\\ln n - \\ln n + 1}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{\\sin n}{n}}$$",
 ];
 
 const nthTermAnswers = [
-    "nthTerm #1 converges",
-    "nthTerm #2 diverges",
-    "nthTerm #3 converges",
-    "nthTerm #4 diverges",
+    "Diverges",
+    "Diverges",
+    "Diverges",
+    "Converges",
 ];
 
 const pseriesQuestions = [
-    "pseries #1 $$a+b=c$$",
-    "pseries #2 $$a+b=c$$",
-    "pseries #3 $$a+b=c$$",
-    "pseries #4 $$a+b=c$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{-2}{n\\sqrt{n}}}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{1}{n^{\\bf{e}}}}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{1}{n^{0.1}}}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{1}{n}}$$",
 ];
 
 const pseriesAnswers = [
-    "pseries #1 converges",
-    "pseries #2 diverges",
-    "pseries #3 converges",
-    "pseries #4 diverges",
+    "Converges",
+    "Converges",
+    "Diverges",
+    "Diverges",
 ];
 
 const geoQuestions = [
-    "geo #1 $$a+b=c$$",
-    "geo #2 $$a+b=c$$",
-    "geo #3 $$a+b=c$$",
-    "geo #4 $$a+b=c$$",
+    "$$\\sum\\limits_{n=0}^\\infty {\\frac{2^{n}-1}{3^n}}$$",
+    "Express the repeating decimal \\(5.\\overline{672}\\) as a rational number.",
+    "$$\\sum\\limits_{n=1}^\\infty {5^{n+3}4^{n}}$$",
+    "$$\\sum\\limits_{n=0}^\\infty {{\\frac{1}{\\sqrt{2}}^{n}}}$$",
+    "$$1-\\left(\\frac{2}{3}\\right)+\\left(\\frac{2}{3}\\right)^2-\\left(\\frac{2}{3}\\right)^3+...$$",
 ];
 
 const geoAnswers = [
-    "geo #1 converges",
-    "geo #2 diverges",
-    "geo #3 converges",
-    "geo #4 diverges",
+    "Converges.<br>The sum is \\(\\displaystyle \\frac{3}{2}\\).",
+    "$$5\\frac{224}{333}\\text{ or } \\frac{1889}{333}$$",
+    "Diverges",
+    "Converges",
+    "Converges.<br>The sum is \\(\\displaystyle \\frac{3}{5}\\).",
 ];
 
 const compareQuestions = [
