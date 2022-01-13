@@ -1,7 +1,6 @@
 body {
     font-family: arial;
-    font-size: 16px;
-    color: black;
+    text-align: center;
 }
 
 ul {
@@ -10,7 +9,7 @@ ul {
     column-gap: 20px;
     list-style: none;
     text-align: left;
-    display: inline-block;
+    overflow: hidden;
 }
 
 fieldset {
@@ -46,4 +45,19 @@ h1 {
 
 .question-body {
     text-align: center;
+}
+
+label {
+    white-space: break-spaces;
+}
+
+li {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
 }
