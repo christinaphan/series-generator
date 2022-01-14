@@ -146,6 +146,20 @@ const limitAnswers = [
     "FIXME PLS",
 ];
 
+const teleQuestions = [
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\sqrt{n+2}-\\sqrt{n+1}}$$",
+    "$$\\sum_{n=1}^{\\infty}\\tan^{-1}(n)-\\tan^{-1}(n+1)$$",
+    "$$\\sum\\limits_{n = 2}^\\infty  {\\ln\\left(\\frac{n}{n+1}\\right)}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{3}{n^2} - \\frac{3}{(n+1)^2}}$$",
+];
+
+const teleAnswers = [
+    "Diverges",
+    "Converges.<br>The sum is \\(\\displaystyle -\\frac{\\pi}{4}\\).",
+    "Diverges",
+    "Converges.<br>The sum is \\(\\displaystyle 3\\).",
+];
+
 $(document).ready(function() {
     $('#show').hide();
     $('#selectall').on('click', function() {
@@ -196,6 +210,10 @@ $(document).ready(function() {
         if(limitcompare.checked) {
             pos_questions.push(limitQuestions);
             pos_answers.push(limitAnswers);
+        }
+        if(tele.checked) {
+            pos_questions.push(teleQuestions);
+            pos_answers.push(teleAnswers);
         }
         if (pos_questions.length <= 0) return;
 
