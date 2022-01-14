@@ -38,64 +38,72 @@ const geoAnswers = [
     "Converges.<br>The sum is \\(\\displaystyle \\frac{3}{2}\\).",
     "$$5\\frac{224}{333}\\text{ or } \\frac{1889}{333}$$",
     "Diverges",
-    "Converges",
+    "Converges.<br>The sum is \\(\\displaystyle \\frac{\\sqrt{2}}{\\sqrt{2}-1}\\).",
     "Converges.<br>The sum is \\(\\displaystyle \\frac{3}{5}\\).",
 ];
 
 const compareQuestions = [
-    "compare #1 $$a+b=c$$",
-    "compare #2 $$a+b=c$$",
-    "compare #3 $$a+b=c$$",
-    "compare #4 $$a+b=c$$",
+    "$$\\sum\\limits_{n = 0}^\\infty  {\\frac{{3{n^2} + 7n - 1}}{{{n^4} - n + 3}}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{{\\left( {1 - \\sin \\left( n \\right)} \\right)\\left( {1 + \\sin \\left( n \\right)} \\right)}}{{{n^2} + 8n + 1}}}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{1+\\cos n}{n^2}}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{2^n+3^n}{3^n+4^n}}$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\sqrt{\\frac{n+4}{n^4+4}}}$$",
 ];
 
 const compareAnswers = [
-    "compare #1 converges",
-    "compare #2 diverges",
-    "compare #3 converges",
-    "compare #4 diverges",
+    "FIXME PLS",
+    "FIXME PLS",
+    "Converges", 
+    "FIXME PLS",
+    "FIXME PLS",
 ];
 
 const altQuestions = [
-    "alt #1 $$a+b=c$$",
-    "alt #2 $$a+b=c$$",
-    "alt #3 $$a+b=c$$",
-    "alt #4 $$a+b=c$$",
+    "$$\\sum\\limits_{n = 3}^\\infty  {\\frac{{4n\\cos \\left( {n\\pi } \\right)}}{{2{n^2} + 1}}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {(-1)^{n}\\left(\\sqrt{n+1}-\\sqrt{n}\\right)}$$",
+    "$$\\frac{1}{4}-\\frac{1}{6}+\\frac{1}{8}-\\frac{1}{10}+\\frac{1}{12}-\\frac{1}{14}+...$$",
+    "$$\\sum\\limits_{n=1}^\\infty {\\frac{(-100)^n}{n!}}$$",
+    "$$\\sum\\limits_{n=0}^\\infty {(-1)^n\\frac{e^n}{e^n+e^{n^2}}}$$",
 ];
 
 const altAnswers = [
-    "alt #1 converges",
-    "alt #2 diverges",
-    "alt #3 converges",
-    "alt #4 diverges",
+    "Converges conditionally",
+    "Diverges",
+    "Converges conditionally",
+    "Converges absolutely",
+    "Converges absolutely",
 ];
 
 const ratioQuestions = [
-    "ratio #1 $$a+b=c$$",
-    "ratio #2 $$a+b=c$$",
-    "ratio #3 $$a+b=c$$",
-    "ratio #4 $$a+b=c$$",
+    "$$\\sum\\limits_{n = 3}^\\infty  {\\frac{{{6^{ - 2n}}\\left( {n - 4} \\right)}}{{{4^{3 - 2n}}\\left( {2 - {n^2}} \\right)}}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{(n+1)(n+2)}{n!}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{(n+3)!}{3!n!3^n}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{\\left(n!\\right)^2}{(2n)!}}$$",
+    "<br>\\(\\displaystyle a_1=2\\), \\(\\displaystyle  a_{n+1}=\\frac{1+\\sin n}{n}a_{n}\\)<br><br>",
 ];
 
 const ratioAnswers = [
-    "ratio #1 converges",
-    "ratio #2 diverges",
-    "ratio #3 converges",
-    "ratio #4 diverges",
+    "FIX ME",
+    "FIX ME",
+    "FIX ME",
+    "FIX ME",
+    "FIX ME",
 ];
 
 const rootQuestions = [
-    "root #1 $$a+b=c$$",
-    "root #2 $$a+b=c$$",
-    "root #3 $$a+b=c$$",
-    "root #4 $$a+b=c$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{7}{(2n+5)^n}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {-\\ln\\big(e^2+\\frac{1}{n}\\big)^{n+1}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\left(\\sin\\left(\\frac{1}{\\sqrt{n}}\\right)\\right)^{n}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{n^{10}}{10^n}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\left(\\frac{n-2}{n}\\right)^{n}}$$",
 ];
 
 const rootAnswers = [
-    "root #1 converges",
-    "root #2 diverges",
-    "root #3 converges",
-    "root #4 diverges",
+    "FIX ME PLS",
+    "FIX ME PLS",
+    "FIX ME PLS",
+    "FIX ME PLS",
+    "FIX ME PLS",
 ];
 
 const integralQuestions = [
@@ -123,17 +131,19 @@ const integralAnswers = [
 ];
 
 const limitQuestions = [
-    "limit #1 $$a+b=c$$",
-    "limit #2 $$a+b=c$$",
-    "limit #3 $$a+b=c$$",
-    "limit #4 $$a+b=c$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{\\ln n}{\\sqrt{n}e^n}}$$",
+    "$$\\sum\\limits_{n = 3}^\\infty  {\\frac{1}{\\ln(\\ln n)}}$$",
+    "$$\\sum\\limits_{n = 2}^\\infty  {\\frac{1}{\\sqrt{n}\\ln n}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{n-1}{n^4+2}}$$",
+    "$$\\sum\\limits_{n = 2}^\\infty  {\\frac{(\\ln n)^2}{n^3}}$$",
 ];
 
 const limitAnswers = [
-    "limit #1 converges",
-    "limit #2 diverges",
-    "limit #3 converges",
-    "limit #4 diverges",
+    "FIXME PLS",
+    "FIXME PLS",
+    "FIXME PLS",
+    "FIXME PLS",
+    "FIXME PLS",
 ];
 
 $(document).ready(function() {
