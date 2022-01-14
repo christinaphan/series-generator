@@ -44,18 +44,18 @@ const geoAnswers = [
 
 const compareQuestions = [
     "$$\\sum\\limits_{n = 0}^\\infty  {\\frac{{3{n^2} + 7n - 1}}{{{n^4} - n + 3}}}$$",
-    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{{\\left( {1 - \\sin \\left( n \\right)} \\right)\\left( {1 + \\sin \\left( n \\right)} \\right)}}{{{n^2} + 8n + 1}}}$$",
+    "$$\\sum\\limits_{n = 1}^\\infty  {\\frac{{\\big( {1 - \\sin \\left( n \\right)} \\big)\\big( {1 + \\sin \\left( n \\right)} \\big)}}{{{n^2} + 8n + 1}}}$$",
     "$$\\sum\\limits_{n=1}^\\infty {\\frac{1+\\cos n}{n^2}}$$",
     "$$\\sum\\limits_{n=1}^\\infty {\\frac{2^n+3^n}{3^n+4^n}}$$",
     "$$\\sum\\limits_{n=1}^\\infty {\\sqrt{\\frac{n+4}{n^4+4}}}$$",
 ];
 
 const compareAnswers = [
-    "FIXME PLS",
-    "FIXME PLS",
+    "Converges",
+    "Converges",
     "Converges", 
-    "FIXME PLS",
-    "FIXME PLS",
+    "Converges",
+    "Converges",
 ];
 
 const altQuestions = [
@@ -83,11 +83,11 @@ const ratioQuestions = [
 ];
 
 const ratioAnswers = [
-    "FIX ME",
-    "FIX ME",
-    "FIX ME",
-    "FIX ME",
-    "FIX ME",
+    "Converges absolutely",
+    "Converges absolutely",
+    "Converges absolutely",
+    "Converges absolutely",
+    "Converges absolutely",
 ];
 
 const rootQuestions = [
@@ -99,11 +99,11 @@ const rootQuestions = [
 ];
 
 const rootAnswers = [
-    "FIX ME PLS",
-    "FIX ME PLS",
-    "FIX ME PLS",
-    "FIX ME PLS",
-    "FIX ME PLS",
+    "Converges absolutely",
+    "Diverges",
+    "Converges absolutely",
+    "Converges absolutely",
+    "Diverges",
 ];
 
 const integralQuestions = [
@@ -139,11 +139,11 @@ const limitQuestions = [
 ];
 
 const limitAnswers = [
-    "FIXME PLS",
-    "FIXME PLS",
-    "FIXME PLS",
-    "FIXME PLS",
-    "FIXME PLS",
+    "Converges",
+    "Diverges",
+    "Diverges",
+    "Converges",
+    "Converges",
 ];
 
 const teleQuestions = [
@@ -215,7 +215,10 @@ $(document).ready(function() {
             pos_questions.push(teleQuestions);
             pos_answers.push(teleAnswers);
         }
-        if (pos_questions.length <= 0) return;
+        if (pos_questions.length <= 0) {
+            alert("Please select at least one convergence test!");
+            return;
+        }
 
         $('#show').show();
         var rand_problem_test = Math.floor(Math.random() * pos_questions.length);
