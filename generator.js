@@ -30,7 +30,7 @@ const geoQuestions = [
     "$$\\sum\\limits_{n=0}^\\infty {\\frac{2^{n}-1}{3^n}}$$",
     "Express the repeating decimal \\(5.\\overline{672}\\) as a rational number.",
     "$$\\sum\\limits_{n=1}^\\infty {5^{n+3}4^{n}}$$",
-    "$$\\sum\\limits_{n=0}^\\infty {{\\frac{1}{\\sqrt{2}}^{n}}}$$",
+    "$$\\sum\\limits_{n=0}^\\infty {{\\frac{1}{\\left(\\sqrt{2}\\right)^{n}}}}$$",
     "$$1-\\left(\\frac{2}{3}\\right)+\\left(\\frac{2}{3}\\right)^2-\\left(\\frac{2}{3}\\right)^3+...$$",
 ];
 
